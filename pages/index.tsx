@@ -26,16 +26,16 @@ export default function Home() {
               height="150"
               priority
             />
-            <div className={styles.description}>
+            <div className={styles.content}>
               <h2 className={inter.className}>
                 Jan Christoph Bernack
               </h2>
-              <div>
+              <div className={styles.description}>
                 <p className={inter.className}>
                   Hamburg, Germany
                 </p>
                 <p className={inter.className}>
-                  CTO @ Rocknitive
+                  CTO @ <a href="https://www.rocknitive.com/">Rocknitive</a>
                 </p>
               </div>
               <ul className={styles.social}>
@@ -62,16 +62,16 @@ export default function Home() {
               height="150"
               priority
             />
-            <div className={styles.description}>
+            <div className={styles.content}>
               <h2 className={inter.className}>
                 Timo Bernack
               </h2>
-              <div>
+              <div className={styles.description}>
                 <p className={inter.className}>
                   Oldenburg, Germany
                 </p>
                 <p className={inter.className}>
-                  Sr. Full Stack Developer @ Adference
+                  Sr. Full Stack Developer @ <a href="https://www.adference.com/">Adference</a>
                 </p>
               </div>
               <ul className={styles.social}>
