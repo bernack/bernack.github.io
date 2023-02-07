@@ -76,16 +76,10 @@ export default function Home() {
               </div>
               <ul className={styles.social}>
                 <li>
-                  <a href="https://www.linkedin.com/in/jan-christoph-bernack-248798196/"><FaLinkedinIn /></a>
+                  <a href="https://www.linkedin.com/in/timo-bernack-165721253/"><FaLinkedinIn /></a>
                 </li>
                 <li>
-                  <a href="mailto:jc.bernack@gmail.com"><FaMailBulk /></a>
-                </li>
-                <li>
-                  <a href="https://github.com/jcBernack/"><FaGithub /></a>
-                </li>
-                <li>
-                  <a href="https://stackoverflow.com/users/804614/gigo"><FaStackOverflow /></a>
+                  <a href="mailto:timo.bernack@bernack.de"><FaMailBulk /></a>
                 </li>
               </ul>
             </div>

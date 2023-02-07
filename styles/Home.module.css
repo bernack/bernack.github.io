@@ -1,7 +1,7 @@
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 6rem;
     min-height: 100vh;
@@ -59,8 +59,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2rem;
-    height: 2rem;
+    width: 2.2rem;
+    height: 2.2rem;
     border-radius: 100%;
     border: 1px solid rgba(var(--card-border-rgb), 0.3);
     transition: border 200ms;
@@ -69,6 +69,14 @@
 .social li a:hover {
     border: 1px solid rgba(var(--card-border-rgb), 0.80);
 }
+
+
+
+
+
+
+
+
 
 .code {
     font-weight: 700;
