@@ -10,7 +10,7 @@
 .profileList {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .profile {
@@ -20,7 +20,7 @@
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     transition: background 200ms, border 200ms;
-    box-shadow: 0 1.125rem 4.125rem 0 rgb(0 0 0 / 45%);
+    box-shadow: 0 1.125rem 3.125rem 0 rgb(0 0 0 / 45%);
 }
 
 .profile img {
@@ -37,7 +37,7 @@
 
 .profile h2 {
     font-weight: 600;
-    margin: 0.7rem 0;
+    margin-top: 0.7rem;
 }
 
 .profile p {
@@ -52,6 +52,7 @@
     display: flex;
     gap: 0.75rem;
     list-style: none;
+    font-size: 1.2rem;
 }
 
 .social li a {
@@ -61,7 +62,12 @@
     width: 2rem;
     height: 2rem;
     border-radius: 100%;
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    border: 1px solid rgba(var(--card-border-rgb), 0.3);
+    transition: border 200ms;
+}
+
+.social li a:hover {
+    border: 1px solid rgba(var(--card-border-rgb), 0.80);
 }
 
 .code {

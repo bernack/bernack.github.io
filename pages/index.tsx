@@ -2,6 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import { Inter } from "@next/font/google"
 import styles from "@/styles/Home.module.css"
+import { FaGithub, FaLinkedinIn, FaMailBulk, FaStackOverflow } from "react-icons/fa"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -39,16 +40,16 @@ export default function Home() {
               </div>
               <ul className={styles.social}>
                 <li>
-                  <a>in</a>
+                  <a href="https://www.linkedin.com/in/jan-christoph-bernack-248798196/"><FaLinkedinIn /></a>
                 </li>
                 <li>
-                  <a>ma</a>
+                  <a href="mailto:jc.bernack@gmail.com"><FaMailBulk /></a>
                 </li>
                 <li>
-                  <a>GH</a>
+                  <a href="https://github.com/jcBernack/"><FaGithub /></a>
                 </li>
                 <li>
-                  <a>SO</a>
+                  <a href="https://stackoverflow.com/users/804614/gigo"><FaStackOverflow /></a>
                 </li>
               </ul>
             </div>
@@ -70,51 +71,26 @@ export default function Home() {
                   Oldenburg, Germany
                 </p>
                 <p className={inter.className}>
-                  Sr. Software Engineer @ Adference
+                  Sr. Full Stack Developer @ Adference
                 </p>
               </div>
               <ul className={styles.social}>
                 <li>
-                  <a>in</a>
+                  <a href="https://www.linkedin.com/in/jan-christoph-bernack-248798196/"><FaLinkedinIn /></a>
                 </li>
                 <li>
-                  <a>ma</a>
+                  <a href="mailto:jc.bernack@gmail.com"><FaMailBulk /></a>
                 </li>
                 <li>
-                  <a>GH</a>
+                  <a href="https://github.com/jcBernack/"><FaGithub /></a>
                 </li>
                 <li>
-                  <a>SO</a>
+                  <a href="https://stackoverflow.com/users/804614/gigo"><FaStackOverflow /></a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-
-        {/*<div className={styles.grid}>*/}
-        {/*  <div className={styles.card}>*/}
-        {/*    <h2 className={inter.className}>*/}
-        {/*      Jan Christoph Bernack*/}
-        {/*    </h2>*/}
-        {/*    <p className={inter.className}>*/}
-        {/*      Hamburg, Germany*/}
-        {/*    </p>*/}
-        {/*    <p className={inter.className}>*/}
-        {/*      CTO @ Rocknitive*/}
-        {/*    </p>*/}
-        {/*  </div>*/}
-        {/*  <div className={styles.card}>*/}
-        {/*    <h2 className={inter.className}>*/}
-        {/*      Timo Bernack*/}
-        {/*    </h2>*/}
-        {/*    <p className={inter.className}>*/}
-        {/*      Oldenburg, Germany*/}
-        {/*    </p>*/}
-        {/*    <p className={inter.className}>*/}
-        {/*      Sr. Software Engineer @ Adference*/}
-        {/*    </p>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
 
         {/*<div className={styles.grid}>*/}
         {/*  <a*/}
