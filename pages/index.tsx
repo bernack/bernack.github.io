@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
-        <div className={styles.profileList}>
+        <div className={`${styles.profileList} ${styles.glow}`}>
           <div className={styles.profile}>
             <Image
               alt="Profile picture of Jan Christoph Bernack"
