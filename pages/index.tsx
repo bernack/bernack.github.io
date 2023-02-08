@@ -2,7 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import { Inter } from "@next/font/google"
 import styles from "@/styles/Home.module.css"
-import { FaGithub, FaLinkedinIn, FaMailBulk, FaStackOverflow } from "react-icons/fa"
+import { FaGithub, FaLinkedinIn, FaStackOverflow } from "react-icons/fa"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -40,9 +40,9 @@ export default function Home() {
               <li>
                 <a href="https://www.linkedin.com/in/jan-christoph-bernack-248798196/"><FaLinkedinIn /></a>
               </li>
-              <li>
-                <a href="mailto:jc.bernack@gmail.com"><FaMailBulk /></a>
-              </li>
+              {/*<li>*/}
+              {/*  <a href="mailto:jc.bernack@gmail.com"><FaMailBulk /></a>*/}
+              {/*</li>*/}
               <li>
                 <a href="https://github.com/jcBernack/"><FaGithub /></a>
               </li>
@@ -76,9 +76,9 @@ export default function Home() {
               <li>
                 <a href="https://www.linkedin.com/in/timo-bernack-165721253/"><FaLinkedinIn /></a>
               </li>
-              <li>
-                <a href="mailto:timo.bernack@bernack.de"><FaMailBulk /></a>
-              </li>
+              {/*<li>*/}
+              {/*  <a href="mailto:timo.bernack@bernack.de"><FaMailBulk /></a>*/}
+              {/*</li>*/}
             </ul>
           </div>
         </div>
@@ -106,9 +106,9 @@ export default function Home() {
               <li>
                 <a href="https://www.linkedin.com/in/sina-hosbach-541ab4133/"><FaLinkedinIn /></a>
               </li>
-              <li>
-                <a href="mailto:"><FaMailBulk /></a>
-              </li>
+              {/*<li>*/}
+              {/*  <a href="mailto:"><FaMailBulk /></a>*/}
+              {/*</li>*/}
             </ul>
           </div>
         </div>
