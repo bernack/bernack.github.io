@@ -4,12 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    min-height: 100vh;
-}
-
-.profileList {
-    display: flex;
-    flex-direction: column;
+    min-height: 100svh;
     gap: 3rem;
 }
 
