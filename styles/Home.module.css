@@ -5,7 +5,11 @@
     align-items: center;
     padding: 2rem;
     min-height: 100svh;
-    gap: 3rem;
+}
+
+.profileList  {
+    display: grid;
+    gap: 2rem;
 }
 
 .profile {
