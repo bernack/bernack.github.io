@@ -100,7 +100,7 @@ export default function Home() {
                   Oldenburg, Germany
                 </p>
                 <p className={inter.className}>
-                  Editor @ <a href="https://www.adference.com/">scolix-Verlag, AAP Lehrerwelt GmbH</a>
+                  Editor @ <a href="https://www.scolix.de/">scolix-Verlag, AAP Lehrerwelt GmbH</a>
                 </p>
               </div>
               <ul className={styles.social}>
