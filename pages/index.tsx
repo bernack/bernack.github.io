@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Bernack</title>
-        <meta name="description" content="Personal site of Timo and Jan Christoph Bernack" />
+        <meta name="description" content="Personal site of Timo and Jan Christoph Bernack and Sina Hosbach" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -78,6 +78,36 @@ export default function Home() {
               </li>
               <li>
                 <a href="mailto:timo.bernack@bernack.de"><FaMailBulk /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className={styles.profile}>
+          <Image
+            alt="Profile picture of Sina Hosbach"
+            src="/profile-sh.jpeg"
+            width="150"
+            height="150"
+            priority
+          />
+          <div className={styles.content}>
+            <h2 className={inter.className}>
+              Sina Hosbach
+            </h2>
+            <div className={styles.description}>
+              <p className={inter.className}>
+                Oldenburg, Germany
+              </p>
+              <p className={inter.className}>
+                Editor @ <a href="https://www.adference.com/">scolix-Verlag, AAP Lehrerwelt</a>
+              </p>
+            </div>
+            <ul className={styles.social}>
+              <li>
+                <a href="https://www.linkedin.com/in/sina-hosbach-541ab4133/"><FaLinkedinIn /></a>
+              </li>
+              <li>
+                <a href="mailto:"><FaMailBulk /></a>
               </li>
             </ul>
           </div>
