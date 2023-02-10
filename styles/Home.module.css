@@ -7,7 +7,7 @@
     min-height: 100svh;
 }
 
-.profileList  {
+.profileList {
     display: grid;
     gap: 2rem;
 }
