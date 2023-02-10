@@ -20,7 +20,7 @@ export default function Home() {
           <div className={styles.profile}>
             <Image
               alt="Profile picture of Jan Christoph Bernack"
-              src="/profile-jcb.jpeg"
+              src="/profile-jcb.jpg"
               width="150"
               height="150"
               priority
@@ -86,7 +86,7 @@ export default function Home() {
           <div className={styles.profile}>
             <Image
               alt="Profile picture of Sina Hosbach"
-              src="/profile-sh.jpeg"
+              src="/profile-sh.jpg"
               width="150"
               height="150"
               priority
