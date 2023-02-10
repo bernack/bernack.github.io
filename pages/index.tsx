@@ -41,9 +41,6 @@ export default function Home() {
                 <li>
                   <a href="https://www.linkedin.com/in/jan-christoph-bernack-248798196/"><FaLinkedinIn /></a>
                 </li>
-                {/*<li>*/}
-                {/*  <a href="mailto:jc.bernack@gmail.com"><FaMailBulk /></a>*/}
-                {/*</li>*/}
                 <li>
                   <a href="https://github.com/jcBernack/"><FaGithub /></a>
                 </li>
@@ -77,9 +74,6 @@ export default function Home() {
                 <li>
                   <a href="https://www.linkedin.com/in/timo-bernack-165721253/"><FaLinkedinIn /></a>
                 </li>
-                {/*<li>*/}
-                {/*  <a href="mailto:timo.bernack@bernack.de"><FaMailBulk /></a>*/}
-                {/*</li>*/}
               </ul>
             </div>
           </div>
@@ -100,36 +94,17 @@ export default function Home() {
                   Oldenburg, Germany
                 </p>
                 <p className={inter.className}>
-                  Editor @ <a href="https://www.scolix.de/">scolix-Verlag, AAP Lehrerwelt GmbH</a>
+                  Editor @ <a href="https://www.scolix.de/">scolix-Verlag, AAP Lehrerwelt</a>
                 </p>
               </div>
               <ul className={styles.social}>
                 <li>
                   <a href="https://www.linkedin.com/in/sina-hosbach-541ab4133/"><FaLinkedinIn /></a>
                 </li>
-                {/*<li>*/}
-                {/*  <a href="mailto:"><FaMailBulk /></a>*/}
-                {/*</li>*/}
               </ul>
             </div>
           </div>
         </div>
-
-        {/*<div className={styles.grid}>*/}
-        {/*  <a*/}
-        {/*    href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"*/}
-        {/*    className={styles.card}*/}
-        {/*    target="_blank"*/}
-        {/*    rel="noopener noreferrer"*/}
-        {/*  >*/}
-        {/*    <h2 className={inter.className}>*/}
-        {/*      Docs <span>-&gt;</span>*/}
-        {/*    </h2>*/}
-        {/*    <p className={inter.className}>*/}
-        {/*      Find in-depth information about Next.js features and&nbsp;API.*/}
-        {/*    </p>*/}
-        {/*  </a>*/}
-        {/*</div>*/}
       </main>
     </>
   )
