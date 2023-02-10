@@ -26,9 +26,9 @@ export default function Home() {
               priority
             />
             <div className={styles.content}>
-              <h2 className={inter.className}>
+              <h1 className={inter.className}>
                 Jan Christoph Bernack
-              </h2>
+              </h1>
               <div className={styles.description}>
                 <p className={inter.className}>
                   Hamburg, Germany
@@ -59,9 +59,9 @@ export default function Home() {
               priority
             />
             <div className={styles.content}>
-              <h2 className={inter.className}>
+              <h1 className={inter.className}>
                 Timo Bernack
-              </h2>
+              </h1>
               <div className={styles.description}>
                 <p className={inter.className}>
                   Oldenburg, Germany
@@ -86,9 +86,9 @@ export default function Home() {
               priority
             />
             <div className={styles.content}>
-              <h2 className={inter.className}>
+              <h1 className={inter.className}>
                 Sina Hosbach
-              </h2>
+              </h1>
               <div className={styles.description}>
                 <p className={inter.className}>
                   Oldenburg, Germany
