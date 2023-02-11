@@ -55,3 +55,16 @@ a {
         color-scheme: dark;
     }
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100svh;
+}
+
+p {
+    margin: 0.5rem 0;
+}

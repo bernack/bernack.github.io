@@ -1,12 +1,3 @@
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    min-height: 100svh;
-}
-
 .profileList {
     display: grid;
     gap: 2rem;
@@ -32,12 +23,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
-
-.profile .description {
-    margin: 0.5rem 0;
-    display: flex;
-    flex-direction: column;
 }
 
 .profile h2 {
@@ -68,6 +53,12 @@
     transition: border 200ms;
 }
 
+.impressum {
+    justify-self: end;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
     .profile:hover {
@@ -91,8 +82,12 @@
         align-items: center;
     }
 
-    .profile .content, .profile .description {
+    .profile .content {
         align-items: center;
         text-align: center;
+    }
+
+    .header, .impressum {
+        justify-self: center;
     }
 }
