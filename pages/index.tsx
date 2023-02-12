@@ -6,8 +6,10 @@ import Link from "next/link"
 export default function Home() {
   return (
     <>
-      <div className={styles.profileList}>
-        <h1 className={styles.header}>Moin!</h1>
+      <div className={styles.list}>
+        <div className={styles.header}>
+          <h1>Moin!</h1>
+        </div>
         <div className={styles.profile}>
           <Image
             alt="Profile picture of Jan Christoph Bernack"
@@ -67,7 +69,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className={styles.impressum}>
+        <div className={styles.footer}>
           <Link href="/impressum">Impressum</Link>
         </div>
       </div>
