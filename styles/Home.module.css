@@ -3,6 +3,10 @@
     gap: 2rem;
 }
 
+.profileList > * {
+    padding: 0 1.2rem;
+}
+
 .profile {
     display: flex;
     gap: 1rem;
@@ -27,12 +31,6 @@
 
 .profile h2 {
     font-weight: 600;
-}
-
-.profile p {
-    opacity: 0.6;
-    font-size: 0.9rem;
-    line-height: 1.5;
 }
 
 .social {

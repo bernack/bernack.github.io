@@ -67,7 +67,9 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <Link href="/impressum" className={styles.impressum}>Impressum</Link>
+        <div className={styles.impressum}>
+          <Link href="/impressum">Impressum</Link>
+        </div>
       </div>
     </>
   )
