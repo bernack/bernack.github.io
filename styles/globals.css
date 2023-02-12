@@ -68,6 +68,8 @@ main {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    /* fallback for browsers that do not support svh units yet */
+    min-height: 100vh;
     min-height: 100svh;
 }
 

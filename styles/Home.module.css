@@ -8,7 +8,8 @@
 }
 
 .profile {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     gap: 1rem;
     padding: 1rem 1.2rem;
     border-radius: var(--border-radius);
@@ -26,6 +27,7 @@
 .profile .content {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
@@ -34,7 +36,8 @@
 }
 
 .social {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     gap: 0.75rem;
     list-style: none;
     font-size: 1.2rem;
@@ -75,8 +78,8 @@
 /* Mobile */
 @media (max-width: 700px) {
     .profile {
-        flex-direction: column;
-        align-items: center;
+        grid-auto-flow: row;
+        justify-items: center;
     }
 
     .profile .content {
